@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
+// import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
 export default function Greeting(props) {
@@ -55,7 +55,6 @@ export default function Greeting(props) {
                 src={require(`../../assests/images/kaushikee-photo.jpg`)}
                 alt=""
               />
-            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>
