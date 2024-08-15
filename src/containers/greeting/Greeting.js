@@ -32,9 +32,9 @@ export default function Greeting(props) {
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
-                </span>
-                {greeting.subTitle}
+                </span>                
               </p>
+              <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button
@@ -50,12 +50,12 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-          {/* <img
+          <img
                 className="profile-pic"
-                src={require(`../../assests/images/img1.png`)}
+                src={require(`../../assests/images/kaushikee-photo.jpg`)}
                 alt=""
-              /> */}
-            <FeelingProud theme={theme} />
+              />
+            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>

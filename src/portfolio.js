@@ -418,6 +418,7 @@ const degrees = {
     {
       title: "Northeastern University",
       subtitle: "Master of Science in Information Systems",
+      gpa : "[GPA - 3.94/4.00]",
       logo_path: "NU-logo.png",
       alt_name: "NEU",
       duration: "Sept 2022 - Aug 2024",
@@ -432,6 +433,7 @@ const degrees = {
     {
       title: "Shri Vaishnav Vidyapeeth Vishwavidyalaya",
       subtitle: "B.Tech. in Information Technology",
+      gpa : "[CGPA - 9.12/10.00]",
       logo_path: "svvv.jpeg",
       alt_name: "SVVV",
       duration: "Jul 2016 - May 2020",
@@ -450,29 +452,29 @@ const certifications = {
     {
       title: "OCI 2024 Generative AI",
       subtitle: "Oracle Cloud Infrastructure",
-      logo_path: "aws.png",
+      logo_path: "OCI.png",
       certificate_link:
-        "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
+        "https://drive.google.com/file/d/1Jp8OhAQ1rN-4npmHacQ0vSGhlNGZQ3LI/view?usp=sharing",
       alt_name: "OCI",
-      color_code: "#ffc475",
+      color_code: "#b190b0",
     },
     {
       title: "Database Management System",
       subtitle: "IIT KHARAGPUR",
-      logo_path: "aws.png",
+      logo_path: "nptel.jpg",
       certificate_link:
-        "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/public_url",
+        "https://drive.google.com/file/d/1t81qVAzMnYnGktS6LKLCt60Iv6wjn9ja/view?usp=sharing",
       alt_name: "AWS",
       color_code: "#ffc475",
     },
-    // {
-    //   title: "Google Summer of Code 2019",
-    //   subtitle: "Google / Sugar Labs",
-    //   logo_path: "google_logo.png",
-    //   certificate_link: " ",
-    //   alt_name: "Google",
-    //   color_code: "#ffc475",
-    // },
+    {
+      title: "Azure Data Fundamentals",
+      subtitle: "LinkedIn Learning",
+      logo_path: "AzureData.png",
+      certificate_link: "https://drive.google.com/file/d/1sW9ESpJW-RDVqA2c80slEXJLOBqTxh1R/view?usp=sharing",
+      alt_name: "Google",
+      color_code: "#2AAFED",
+    },
     // {
     //   title: "Google Code-In Student",
     //   subtitle: "2014-2017",
@@ -582,131 +584,72 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and Teaching Assistant",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "With two impactful internships, experience as a Teaching Assistant for two courses, and over 3 years in the professional field, I am actively seeking new opportunities to further enhance my expertise and drive innovation.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Interships",
       experiences: [
         {
-          title: "IT Developer",
-          company: "Canada Revenue Agency",
-          company_url: "https://www.canada.ca/en/revenue-agency.html",
-          logo_path: "cra.png",
-          duration: "May 2023 - Ongoing",
-          location: "Halifax, Nova Scotia",
+          title: "Quality Engineering Intern",
+          company: "TD Bank, Canada",
+          company_url: "https://www.td.com",
+          logo_path: "TD.png",
+          duration: "May 2023 - Apr 2024",
+          location: "Toronto, ON",
           description:
-            "Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.",
+          [
+            "Leveraged BDD Cucumber, Java and Jenkins using groovy to create automated regression pipelines, achieving a 40% reduction in testing time and a 30% boost in efficiency for Customer Risk Rating data. ",
+            "Executed ETL processes for data validation using SQL, Python/PySpark in Databricks. Achieved a high accuracy rate by meticulously processing millions of records and eliminating bad data. ",
+            "Orchestrated data pipelines with Azure Data Factory, ensuring seamless and efficient data extraction, transformation, and data loading processes, contributing to overall data quality and reliability. ",
+            "Earned TD appreciation e-cards from the Team lead and team members for consistent, noteworthy contributions and a results-oriented approach, focusing on achieving high-quality outcomes. "
+          ],
           color: "#f10000",
         },
         {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
-          logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
+          title: "Software Developer Intern",
+          company: "OEPP Innovations Pvt. Ltd",
+          company_url: "https://www.shahsoftsol.com/",
+          logo_path: "OEPP.png",
+          duration: "Jan 2020 - Apr 2020",
+          location: "Indore, India",
           description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
+            "Designed and implemented responsive websites using React, Angular, HTML, CSS and Bootstrap and enhanced interactivity by integrating AI-based Chatbots, boosting communication efficiency by 20%. Awarded 'Intern of the Month' for outstanding performance and superior organizational skills.",
           color: "#2962FF",
         },
       ],
     },
     {
-      title: "Internships",
+      title: "Work",
       experiences: [
         {
-          title: "Google Summer of Code",
-          company: "Sugar Labs",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "May 2019 - Aug 2019",
-          location: "Work From Home",
-          description:
-            "I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen",
+          title: "Project Engineer",
+          company: "Wipro Technologies",
+          company_url: "https://www.wipro.com/en-IN/",
+          logo_path: "wipro.png",
+          duration: "Sep 2020 - Sep 2022",
+          location: "Pune, India",
+          description: "Spearheaded the quality assurance efforts to successfully deliver flawless software products and developed over 1500 automated multi-browser tests with Selenium and TestNG. Facilitated root cause analysis of defects with the team and acted as a catalyst for continuous improvement, reducing manual workload by 60%. Streamlined IT workload by 20% via targeted performance testing using JMeter and API testing using Postman. Collaborated with BAs, Devs, POs in sprint planning sessions to decompose solutions into valuable increments and deliver assignments with detailed quality reports, ensuring client satisfaction by resolving critical defects. Secured a top performance rating of 5/5 and was honored with the 'Standing Ovation Award' in the FY 20-21 Walk of Fame",
           color: "#ee3c26",
-        },
-        {
-          title: "Android App Developer Intern",
-          company: "IAS4Sure",
-          company_url: " ",
-          logo_path: "buld.jpg",
-          duration: "December 2019 - February 2020",
-          location: "Work From Home",
-          description:
-            "Internship task was to make a native Android application. ",
-          color: "#0071C5",
-        },
-        {
-          title: "Web Developer",
-          company: "Wrighter Writing Solutions",
-          company_url: " ",
-          logo_path: "wrighter.jpg",
-          duration: "August 2020",
-          location: "",
-          description: "Develop a website using PHP and jQuery.",
-          color: "#56A4D3",
-        },
-        {
-          title: "Front-End Developer",
-          company: "VJ TechServe",
-          company_url: " ",
-          logo_path: "vjt.png",
-          duration: "September 2020",
-          location: "",
-          description: "Develop a portfolio website using ReactJS",
-          color: "#800000",
-        },
+        }
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Teaching Assistant",
       experiences: [
         {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
-          location: " ",
+          title: "Graduate Teaching Assistant",
+          company: "Northeastern University",
+          company_url: "https://www.northeastern.edu/",
+          logo_path: "NU-logo.png",
+          duration: "Aug 2023 - Apr 2024",
+          location: "Toronto, ON",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "Assisted faculty in preparing and delivering course content, managed student queries, and supported Canvas administrative tasks. Instructed 60+ students and conducted the evaluation of assignments and exams, delivering insightful feedback. Facilitated classroom activities and events to enhance student learning and engagement. Contributed to course development by updating materials and organizing learning resources",
           color: "#4285F4",
-        },
-        {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Winter of 2017 / 18 / 19",
-          location: " ",
-          description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
-          color: "#D83B01",
-        },
-        {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
-          logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
-          company_url: " ",
-          logo_path: "b.png",
-          duration: "2018 - On Going",
-          location: " ",
-          description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
-          color: "#D83B01",
-        },
+        }
       ],
     },
   ],
@@ -716,7 +659,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects demonstrate expertise in cutting-edge technologies like Generative AI, React, Angular, Database Management, and Data Science, highlighting my ability to innovate and deliver impactful solutions",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -729,10 +672,10 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Youtube Channel",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
+      "On my YouTube channel, I share insights and tutorials on cutting-edge technologies including Generative AI, Quality engineering etc. Subscribe to stay updated with the latest trends and innovations in the tech world!",
+    link: "https://www.youtube.com/@kaushikeebhawsar",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -740,366 +683,119 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      name: "CineScope",
-      url: "https://github.com/Hrishi1999/CineScope",
-      description: "An IMDB-like application.",
+      name: "RAG Chatbot",
+      url: "https://kaushikee.streamlit.app/",
+      description: "RAG based virtual Chatbot to help you navigate through my professional background efficiently. ",
       languages: [
         {
-          name: "React.js",
-          iconifyClass: "logos-react",
+          name: "LangChain",
+          iconifyClass: "simple-icons:langchain",
         },
         {
-          name: "TypeScript",
-          iconifyClass: "devicon-typescript",
+          name: "Chroma",
+          iconifyClass: "logos-chroma",
         },
         {
-          name: "Node.js",
-          iconifyClass: "devicon-nodejs",
+          name: "Streamlit",
+          iconifyClass: "simple-icons:streamlit",
         },
         {
-          name: "Express.js",
-          iconifyClass: "devicon-express",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
+          name: "HuggingFace",
+          iconifyClass: "simple-icons:huggingface",
         },
       ],
     },
     {
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
+      name: "Croptrail",
+      url: "https://croptrails.satsure.co/",
       description:
-        "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
+        "CropTrails, a web application aimed at revolutionizing agriculture through innovative technology. Leveraging HTML, CSS, JavaScript, and Bootstrap.",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "RecipesAPI",
-      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-      description: "Get recipes for hundreds and thousands of dishes",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      name: "Cab Security System",
-      url: " ",
-      description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      name: "Lensinator",
-      url: " ",
-      description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
-      description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      name: "Video Summarization",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
-      description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
-      languages: [
-        {
-          name: "JavaScript",
+          name: "Javascript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
         },
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "CSS3",
+          iconifyClass: "fa-css3",
         },
         {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
+          name: "BootStrap",
+          iconifyClass: "simple-icons:bootstrap",
         },
       ],
     },
     {
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
+      name: "CHAMBER 20A",
+      url: "https://www.chamber20a.com/",
+      description: "By employing web technologies, including HTML, CSS, JavaScript, and Bootstrap, crafted a responsive design and a seamless digital experience.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Javascript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "fa-css3",
+        },
+        {
+          name: "BootStrap",
+          iconifyClass: "simple-icons:bootstrap",
         },
       ],
     },
     {
-      name: "Project Pickle",
-      url: " ",
-      description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
-      languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Project Health Card",
+      name: "Ecommerce website",
       url: "",
-      description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
-      ],
-    },
-    {
-      name: "Food Classifier",
-      url: " ",
-      description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Dart",
-          iconifyClass: "logos-dart",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-      ],
-    },
-    {
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "DalSocial",
-      url: " ",
-      description:
-        "An Android app to meet new people in the university, organize and join events. ",
-      languages: [
-        {
-          name: "Kotlin",
-          iconifyClass: "simple-icons:kotlin",
-          color: "#F18E33",
-        },
-        {
-          name: "Android",
-          iconifyClass: "simple-icons:android",
-          color: "#3DDC84",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "HalifaxFoodie",
-      url: " ",
-      description:
-        "CSCI5410 Project. A multi-client recipe app for Halifax Foodies.",
+      description: "Ecommerce website created using React, Javascript, HTML and CSS.",
       languages: [
         {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
         {
-          name: "AWS",
-          iconifyClass: "logos-aws",
+          name: "Javascript",
+          iconifyClass: "logos-javascript",
         },
         {
-          name: "Google Cloud",
-          iconifyClass: "logos-google-cloud",
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "fa-css3",
         },
       ],
     },
+    {
+      name: "CropRigate",
+      url: " ",
+      description:
+        "a web application aimed at revolutionizing agriculture through innovative technology. Leveraging HTML, CSS, JavaScript, and Bootstrap.",
+      languages: [
+        {
+          name: "Javascript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "simple-icons:html5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "fa-css3",
+        },
+      ],
+    },
+    
   ],
 };
 

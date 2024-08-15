@@ -91,7 +91,7 @@ function DegreeCard(props) {
                 {degree.title}
               </h2>
               <h3 className="card-subtitle" style={{ color: theme.text }}>
-                {degree.subtitle}
+                {degree.subtitle}{" "}{degree.gpa}
               </h3>
             </div>
             <div className="body-header-duration">

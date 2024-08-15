@@ -1,37 +1,24 @@
-# opPortfolio
+# My Portfolio Application
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/hriship/deploys)
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FHrishi1999%2FopPortfolio)
+Welcome to my Portfolio Application! This project showcases my professional journey, skills, and accomplishments. It includes sections that provide a comprehensive view of my education, certifications, work experience, projects, and ways to contact me.
 
-![opPortfolio](/images/portfolio.gif)
+## Sections
 
-### A clean portfolio template. (Readme will be updated soon)
+- **Home:** An overview of who I am, my background, and a brief introduction.
+- **Education and Certificates:** Details of my academic background and the certifications I’ve earned.
+- **Experience:** A summary of my professional experience, including internships and roles I've held.
+- **Projects:** Highlights of the key projects I've worked on, demonstrating my expertise in various technologies.
+- **Contact and Resume:** Information on how to reach me and a downloadable copy of my resume.
 
-# Sections
+## How To Run
 
-- Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+1. Clone this repository or download the ZIP file.
+2. Navigate to the project directory.
+3. Install the necessary dependencies by running `npm i`.
+4. Start the application using `npm start`.
 
-# How To Use
+## View My App
 
-- Clone this repository (or fork, then clone your fork :) )
-- Run `npm i`
-- Check it out using `npm start`
+You can view my portfolio application by following this [link](#).
 
-# How Do I Customize
-
-- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-- In `src/portfolio.js` you can add your personal portfolio details.
-- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
-
-# How to Deploy
-
-I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
-
-# References
-
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
-Illustrations: https://undraw.co/
+Thank you for exploring my portfolio!
